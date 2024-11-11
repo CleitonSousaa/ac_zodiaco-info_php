@@ -1,0 +1,66 @@
+/*Formatacao inicial*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100dvh;
+    background-color: #EDEDED;
+}
+/*Pagina Principal*/
+.custom-container {
+    color: var(--bs-gray-800);
+    border: 1px solid var(--bs-gray-200);
+    border-radius: .25rem;
+    padding: 50px 30px;
+    background-color: #ffffff;
+}
+.gap-20 {
+    gap: 20px;
+}
+.custom-input {
+    border-radius: 8px;
+    border-width: 3px;
+    border-color: #6dcbf9;
+    padding-left: 10px;
+}
+.custom-h1 {
+    border-bottom: 1px solid #4b4b4b;
+    width: 100%;
+}
+/*Pagina Resultados*/
+.show-container {
+    background: linear-gradient(0deg, rgba(184,0,250,1) 0%, rgba(202,76,249,1) 37%, rgba(210,112,249,1) 53%, rgba(219,149,248,1) 79%);
+    height: 100dvh;
+    width: 100dvw;
+    gap: 50px;
+}
+.show-nome{
+    font-family: "Edu AU VIC WA NT Pre", sans-serif;
+    font-size: 10rem;
+    color: #323232;
+    text-shadow: 0px 0px 7px #fff;
+}
+@media (max-width: 1280px) {.show-nome{font-size: 6rem;}}
+@media (max-width: 500px) {.show-nome{font-size: 3rem;}}
+
+.show_descricao{
+    color: #ffffff;
+    text-align: justify;
+}
+@media (max-width: 1280px) {.show_descricao{font-size: 2rem; padding: 10px;}}
+@media (max-width: 500px) {.show_descricao{font-size: 1rem; padding: 10px;}}
+
+.show-btn{
+    background-color: #323232;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
